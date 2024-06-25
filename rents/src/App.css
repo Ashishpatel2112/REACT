@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero1body{
+  background-image: url(./Components/img/7.jpg);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.head{
+  position: absolute;
+  /* top: 0; */
+  z-index: 1;
+}
+.navbar{
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+}
+.ferrari:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.ford:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.minico:hover{
+  transform: scale(1.1);
+  transition: 1s;
+}
+.hero31{
+  background-image: url(./Components/img/1.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.hero32{
+  background-image: url(./Components/img/2.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.hero33{
+  background-image: url(./Components/img/3.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.sub11{
+  background-image: url(./Components/img/pic-blog-1.jpg);
+  background-position: center;
+}
+.sub22{
+  background-image: url(./Components/img/pic-blog-2.jpg);
+  background-position: center;
+}
+.sub33{
+  background-image: url(./Components/img/pic-blog-3.jpg);
+  background-position: center;
+}
+marquee{
+  word-spacing: 50px;
+}
